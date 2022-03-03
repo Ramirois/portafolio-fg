@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Portafolio</title>
+</head>
+<body>
+   <div class="conteiner">
+    <section class="lateral animate__animated animate__fadeIn  animate__delay-.2s">
+        <div class="animate__animated animate__fadeIn  animate__delay-.2s perfil"></div> 
+           <div class="text-box">
+            <h3>Hola!</h3>
+            <span>Soy Fran Gonzalez
+                Diseñador Gráfico
+                & UI.</span>    
+        </div>
+        <div class="lateral-logos">
+            <img class="logo" src="./assets/Group 1.png" alt="corel" >
+            <img class="logo" src="./assets/Group 2.png" alt="figma">
+            <img class="logo" src="./assets/PHOTOSHOP.png" alt="PHOTOSHOP">
+        </div>
+    </section>
+    <main class="principal">
+        <div class="principal__lista">
+            <ul>
+                <li id="diseños" class="activo">Diseños</li>
+                <li id="institucionales"> <a href="institucionales.html">Institucionales</a></li>
+                <li id="ui">UI/UX</li>
+                <li id="sobremi"> <a href="about.html">Sobre mi</a></li>
+                <li id="contacto"> <a href="contacto.html">Contacto</a></li>
+                <li id="curso">Curso de Corel + Diseño</li>
+            </ul>
+            <p class="text-title">Flyer & otros.</p>
+        </div>
+        <button class="carousel__prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="carousel__contenedor animate__animated animate__fadeIn  animate__delay-.2s">
+            <div class="carousel__lista">
+                <div class="carousel__elemento" id="img1"></div>
+                <div class="carousel__elemento" id="img2"></div>
+                <div class="carousel__elemento" id="img3"></div>
+            </div>
+        </div>
+        <button class="carousel__next"><i class="fa-solid fa-chevron-right"></i></button>
+    </main>
+    <footer>
+        <div class="redes-logo">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    
+    </footer>
+   </div>
+   <script src="./js/seleccion.js"></script>
+   <script src="./js/index.js"></script>
+   <script src="https://kit.fontawesome.com/7ca3a38005.js" crossorigin="anonymous"></script>
+</body>
+</html>

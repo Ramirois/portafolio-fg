@@ -1,0 +1,184 @@
+
+.perfil{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    margin-left: 40px;
+    margin-top: 20%;
+    border-radius: 50%;
+    background: url('../assets/perfil/perfil\ 3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-title{
+	position: absolute;
+	width: 400px;
+	left: 5%;
+	top: 11%;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.redes-logo{
+	position:fixed;
+	top: 92%;
+	left: 90%;
+}
+
+.redes-logo i{
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+.carousel-empresa{
+	/* overflow: hidden; */
+	position: relative;
+	width:95%;
+    height: 220px;
+    top: calc(50% - 170px);
+	left: 5px;
+}
+
+.lista-empresa{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: space-around;
+	width: 200%;
+	height: 85%;
+    /* overflow: hidden; */
+
+	transition: all .7s ease;
+    transform: translateX(0%);
+}
+
+.elemento-empresa{
+    width: 10%;
+    height: 90%;
+    border-radius: 20px;
+    margin-left: 15px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+
+
+.empresa-anterior,
+.empresa-siguiente{
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 40px;
+	border: none;
+	top: calc(50% - 80px);
+	cursor: pointer;
+	line-height: 10px;
+	text-align: center;
+	background-color: #ffff;
+	border-radius: 20px;
+	z-index: 1;
+	font-size: 22px;
+}
+
+.empresa-anterior {
+	left: 10px;
+}
+
+.empresa-siguiente {
+	right: 30px;
+
+}
+
+
+.carousel-iglesia{
+	/* overflow: hidden; */
+	position: relative;
+	width:95%;
+    height: 220px;
+    top: calc(50% - 170px);
+	left: 5px;
+}
+
+
+.elemento-iglesia{
+    width:	10%;
+    height: 90%;
+    border-radius: 20px;
+    margin-left: 15px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+.lista-iglesia{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: space-around;
+	width: 200%;
+	height: 85%;
+    /* overflow: hidden; */
+
+	transition: all .5s ease;
+    transform: translateX(0%);
+}
+
+.iglesia-anterior,
+.iglesia-siguiente{
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 40px;
+	border: none;
+	top: calc(70%  + 15px);
+	cursor: pointer;
+	line-height: 10px;
+	text-align: center;
+	background-color: #ffff;
+	border-radius: 20px;
+	z-index: 1;
+	font-size: 22px;
+}
+
+.iglesia-anterior {
+	left: 10px;
+}
+
+.iglesia-siguiente{
+	right: 30px;
+
+}
+
+
+.subtitulo{
+	position: absolute;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.iglesia{
+	top: 56%;
+	left: 25px;
+}
+
+.empresa{
+	top: 19%;
+	left: 25px;
+}
+
+
+.elemento-empresa:hover,
+.elemento-iglesia:hover{
+	opacity: 50%;
+	cursor: pointer;
+}
+
+.elemento-empresa,
+.elemento-iglesia{
+	transition: opacity .2s;
+}

@@ -1,0 +1,127 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); */
+
+.carousel__contenedor{
+	overflow: hidden;
+	position: relative;
+	width: 90%;
+    top: calc(50% - 170px);
+	left: 20px;
+    border-radius: 20px;
+
+}
+
+.perfil{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    margin-left: 40px;
+    margin-top: 20%;
+    border-radius: 50%;
+    background: url('../assets/perfil/PERFIL\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel__lista{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	width: 310%;
+	height: 360px;
+    overflow: hidden;
+    border-radius: 20px;
+
+
+	transition: all .5s ease;
+    transform: translateX(0%);
+}
+
+.carousel__elemento{
+	width: 850px;
+    height: 348px;
+    border-radius: 20px;
+}
+
+
+
+#img1{
+	border-radius: 20px;
+    background-image: url('https://res.cloudinary.com/df1dychb3/image/upload/v1646264688/1_koghxz.png');
+	background-size: 100% 348px;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	box-shadow: 10px 10px 8px #888888;
+}
+
+
+#img2{
+    background-image: url('https://res.cloudinary.com/df1dychb3/image/upload/v1646264898/2_exgyu0.png');
+	background-size: 100% 348px;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	border-radius: 20px;
+	box-shadow: 10px 10px 8px #888888;
+}
+
+#img3{
+    background-image: url('https://res.cloudinary.com/df1dychb3/image/upload/v1646265081/3_nnp192.png');
+	background-size: 100% 348px;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	border-radius: 20px;
+	box-shadow: 10px 10px 8px #888888;
+}
+	
+
+
+.carousel__next,
+.carousel__prev{
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 80px;
+	border: none;
+	top: calc(50% - 10px);
+	cursor: pointer;
+	line-height: 10px;
+	text-align: center;
+	background-color: #ffff;
+	border-radius: 20px;
+	z-index: 1;
+	font-size: 22px;
+}
+
+.carousel__prev {
+	left: 40px;
+}
+
+.carousel__next {
+	right: 70px;
+}
+
+.text-title{
+	position: absolute;
+	width: 113px;
+	height: 60px;
+	left: 5%;
+	top: 11%;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.redes-logo{
+	position:fixed;
+	top: 90%;
+	left: 90%;
+}
+
+.redes-logo i{
+	font-size: 40px;
+	padding-left: 10px;
+}
+
